@@ -3,5 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ripple_color">#FFFFFFFF</color>
-
+    <color name="theme_turquoise">#36D6CA</color>
 </resources>

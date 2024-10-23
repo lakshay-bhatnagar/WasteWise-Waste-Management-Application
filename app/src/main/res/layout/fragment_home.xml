@@ -19,7 +19,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardBackgroundColor="#8849F0"
+                app:cardBackgroundColor="@color/theme_turquoise"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginTop="30dp"
@@ -28,12 +28,13 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/theme_turquoise"
                     android:orientation="vertical">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#8848F2"
+                        android:background="@color/theme_turquoise"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -101,7 +102,7 @@
                         android:gravity="center"
                         android:layout_marginEnd="30dp"
                         android:layout_marginBottom="20dp"
-                        android:background="#8848F2">
+                        android:background="@color/theme_turquoise">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="90dp"
@@ -293,6 +294,488 @@
                     android:textColor="#C2C4C6"
                     android:text="View all" />
             </RelativeLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="25dp"
+                        app:cardBackgroundColor="#B1D5D9">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/plastic_items" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:backgroundTint="#DAE0E5"
+                                    android:layout_gravity="center|bottom"
+                                    android:text="Plastic"
+                                    android:textColor="@color/black" />
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="25dp"
+                        android:layout_marginStart="10dp"
+                        app:cardBackgroundColor="#EBBE45">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="30dp"
+                                    android:src="@drawable/glass_items" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:backgroundTint="#E4DBA1"
+                                    android:layout_gravity="center|bottom"
+                                    android:text="Glass"
+                                    android:textColor="@color/black" />
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="25dp"
+                        android:layout_marginStart="10dp"
+                        app:cardBackgroundColor="#E1936C">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/paper_items" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:backgroundTint="#E5C3B1"
+                                    android:layout_gravity="center|bottom"
+                                    android:text="Paper"
+                                    android:textColor="@color/black" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="25dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="30dp"
+                        app:cardBackgroundColor="#555555">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/electronic_items" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:backgroundTint="#777777"
+                                    android:layout_gravity="center|bottom"
+                                    android:text="Electronic"
+                                    android:textColor="@color/black" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#E5DDF1"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                app:cardCornerRadius="25dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:id="@+id/environment_bg_image"
+                        android:src="@drawable/environment_bg"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@id/environment_bg_image"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toStartOf="@+id/environment_bg_image"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_pro_display_bold"
+                            android:text="Yay, doing good job"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_pro_display_light"
+                            android:text="You're recycling more than previous months!"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_pro_display_light"
+                            android:text="Keep recycling and make environment clean and green!"
+                            android:textSize="14sp"
+                            android:layout_marginTop="2dp"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="21dp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="@font/sf_pro_display_bold"
+                    android:text="Learn environment"
+                    android:textSize="24sp"
+                    android:textColor="#F8FAFB" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="21dp"
+                    android:fontFamily="@font/sf_pro_display_light"
+                    android:textSize="18sp"
+                    android:textColor="#C2C4C6"
+                    android:text="View all" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/wasteManagement"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/waste_management_and_recycling"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Waste Management and Recycling" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/waterConservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/water_conservation"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Water Conservation" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/energyConservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/energy_conservation"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Energy Conservation" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/biodiversityConservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/biodiversity_and_conservation"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Biodiversity and Conservation" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/climateChange"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/climate_change_global_warming"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Climate Change and Global Warming" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pollution"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/pollution"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Pollution" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sustainableAgriculture"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/sustainable_agriculture"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Sustainable Agriculture" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/environmentalLaws"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/environmental_laws_and_policies"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Environmental Laws and Policies" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/carbonFootprint"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="8dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/carbon_footprint"
+                        android:alpha="0.2"
+                        android:layout_gravity="center">
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Carbon Footprint" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

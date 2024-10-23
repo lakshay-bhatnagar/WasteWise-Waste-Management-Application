@@ -2,19 +2,23 @@ package com.example.wastewise;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-
+import com.example.wastewise.databinding.FragmentHomeBinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 public class HomeFragment extends Fragment {
 
+    private FragmentHomeBinding fragmentHomeBinding;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        fragmentHomeBinding = FragmentHomeBinding.inflate(inflater, container, false);
+        View view = fragmentHomeBinding.getRoot();
+
+        return view;
     }
 }
